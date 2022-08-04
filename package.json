@@ -1,0 +1,18 @@
+{
+  "name": "eip-elabot",
+  "version": "1.0.0",
+  "description": "EIP External Link Archive Bot.",
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "author": "Zainan Victor Zhou <zzn-elabot@zzn.im>",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^4.0.18"
+  },
+  "devDependencies": {
+    "@types/marked": "^4.0.3",
+    "markdown-link-extractor": "^4.0.1",
+    "request-promise": "^4.2.6"
+  }
+}
